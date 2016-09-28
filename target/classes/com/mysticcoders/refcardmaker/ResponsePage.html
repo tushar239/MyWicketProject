@@ -1,0 +1,23 @@
+<html>
+<body>
+	<br />
+	<br />
+	
+	<a href wicket:id="externalLink">click me to go to google</a>
+	<span wicket:id="link">click me</span>
+	<br />
+	<a href="#" wicket:id="ajaxLink">I am an Ajaxified Link</a>
+	<br />
+	<span wicket:id="ajaxifiedLabel">I am an Ajaxified Label</span>
+	<br />
+	<!-- If name1's visibility is set to false, then none of the component inside wicket:enclosure will be displayed -->
+	<wicket:enclosure child="name1">
+		<table border="1">
+			<tr>
+				<td><span wicket:id="name"></span></td>
+				<td><span wicket:id="name1"></span></td>
+			</tr>
+		</table>
+	</wicket:enclosure>
+</body>
+</html>

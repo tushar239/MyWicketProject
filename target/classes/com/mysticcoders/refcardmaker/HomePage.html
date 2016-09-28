@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>Wicket Quickstart Archetype Homepage</title>
+    </head>
+    <body>
+        <strong>Wicket Quickstart Archetype Homepage</strong>
+        <br/><br/>
+        <wicket:container wicket:id="m1">
+        	<span wicket:id="message">message will be here</span>
+        </wicket:container>
+      
+        <a href="#" wicket:id="link">This link</a>has been clicked <span wicket:id="label">123</span> times.
+        <a href="#" wicket:id="bookmarkableLink">Bookmarkable Link</a>
+        <br/><br/>..... Form Starts Here .....<br/><br/>
+        
+        <form wicket:id="form1">
+        	<input wicket:id="nameField" type="text" />
+			<input wicket:id="submitButton" type="submit" value="Set text" />
+			<p wicket:id="nameOutputLabel">Fun Fun Fun</p>
+        </form>
+        
+        <br/><br/>..... Form Ends Here .....<br/><br/>
+    </body>
+</html>
+
